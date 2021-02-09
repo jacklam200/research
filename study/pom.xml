@@ -19,7 +19,17 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+
+
   <dependencies>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>3.5.1</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
